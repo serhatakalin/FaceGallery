@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FG0010010000000000000001 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FG0020010000000000000001 /* AppDelegate.swift */; };
+		FG0010020000000000000001 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FG0020020000000000000001 /* SceneDelegate.swift */; };
+		FG0010030000000000000001 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FG0020030000000000000001 /* GalleryViewController.swift */; };
+		FG0010040000000000000001 /* FaceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FG0020040000000000000001 /* FaceCell.swift */; };
+		FG0010050000000000000001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FG0020050000000000000001 /* Assets.xcassets */; };
+		FG0010060000000000000001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FG002006B000000000000001 /* LaunchScreen.storyboard */; };
+		FG0010070000000000000001 /* FaceGallery in Frameworks */ = {isa = PBXBuildFile; productRef = FG0030010000000000000001 /* FaceGallery */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FG0000010000000000000001 /* FaceGalleryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceGalleryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FG0020010000000000000001 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FG0020020000000000000001 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FG0020030000000000000001 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		FG0020040000000000000001 /* FaceCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceCell.swift; sourceTree = "<group>"; };
+		FG0020050000000000000001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FG002006A000000000000001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FG0020070000000000000001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FG0040010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FG0010070000000000000001 /* FaceGallery in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FG0050010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				FG0050020000000000000001 /* FaceGalleryDemo */,
+				FG0050030000000000000001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FG0050020000000000000001 /* FaceGalleryDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FG0020010000000000000001 /* AppDelegate.swift */,
+				FG0020020000000000000001 /* SceneDelegate.swift */,
+				FG0020030000000000000001 /* GalleryViewController.swift */,
+				FG0020040000000000000001 /* FaceCell.swift */,
+				FG0020050000000000000001 /* Assets.xcassets */,
+				FG002006B000000000000001 /* LaunchScreen.storyboard */,
+				FG0020070000000000000001 /* Info.plist */,
+			);
+			path = FaceGalleryDemo;
+			sourceTree = "<group>";
+		};
+		FG0050030000000000000001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FG0000010000000000000001 /* FaceGalleryDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FG0060010000000000000001 /* FaceGalleryDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FG0070020000000000000001 /* Build configuration list for PBXNativeTarget "FaceGalleryDemo" */;
+			buildPhases = (
+				FG0060020000000000000001 /* Sources */,
+				FG0040010000000000000001 /* Frameworks */,
+				FG0060030000000000000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FaceGalleryDemo;
+			packageProductDependencies = (
+				FG0030010000000000000001 /* FaceGallery */,
+			);
+			productName = FaceGalleryDemo;
+			productReference = FG0000010000000000000001 /* FaceGalleryDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FG0080010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = FG0070010000000000000001 /* Build configuration list for PBXProject "FaceGalleryDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FG0050010000000000000001;
+			packageReferences = (
+				FG0090010000000000000001 /* XCLocalSwiftPackageReference "FaceGallery" */,
+			);
+			productRefGroup = FG0050030000000000000001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FG0060010000000000000001 /* FaceGalleryDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FG0060030000000000000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FG0010050000000000000001 /* Assets.xcassets in Resources */,
+				FG0010060000000000000001 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FG0060020000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FG0010010000000000000001 /* AppDelegate.swift in Sources */,
+				FG0010020000000000000001 /* SceneDelegate.swift in Sources */,
+				FG0010030000000000000001 /* GalleryViewController.swift in Sources */,
+				FG0010040000000000000001 /* FaceCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FG002006B000000000000001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FG002006A000000000000001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FG0070030000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FG0070040000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FG0070050000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = FaceGalleryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.facegallery.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FG0070060000000000000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				INFOPLIST_FILE = FaceGalleryDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.facegallery.demo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FG0070010000000000000001 /* Build configuration list for PBXProject "FaceGalleryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FG0070030000000000000001 /* Debug */,
+				FG0070040000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FG0070020000000000000001 /* Build configuration list for PBXNativeTarget "FaceGalleryDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FG0070050000000000000001 /* Debug */,
+				FG0070060000000000000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		FG0090010000000000000001 /* XCLocalSwiftPackageReference "FaceGallery" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FG0030010000000000000001 /* FaceGallery */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FG0090010000000000000001 /* XCLocalSwiftPackageReference "FaceGallery" */;
+			productName = FaceGallery;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FG0080010000000000000001 /* Project object */;
+}
